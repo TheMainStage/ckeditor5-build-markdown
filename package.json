@@ -83,5 +83,7 @@
   "directories": {
     "test": "tests"
   },
-  "dependencies": {}
+  "dependencies": {
+    "@ckeditor/ckeditor5-word-count": "21.0.0"
+  }
 }

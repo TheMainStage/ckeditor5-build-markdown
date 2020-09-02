@@ -32,6 +32,7 @@ import PasteFromOffice from '@ckeditor/ckeditor5-paste-from-office/src/pastefrom
 import GFMDataProcessor from '@ckeditor/ckeditor5-markdown-gfm/src/gfmdataprocessor';
 import Table from '@ckeditor/ckeditor5-table/src/table';
 import TableToolbar from '@ckeditor/ckeditor5-table/src/tabletoolbar';
+import WordCount from '@ckeditor/ckeditor5-word-count/src/wordcount'
 
 function Markdown( editor ) {
 	editor.data.processor = new GFMDataProcessor( editor.editing.view.document );
@@ -65,7 +66,8 @@ MarkdownEditor.builtinPlugins = [
 	Paragraph,
 	PasteFromOffice,
 	Table,
-	TableToolbar
+	TableToolbar,
+	WordCount
 ];
 
 // Editor configuration.
